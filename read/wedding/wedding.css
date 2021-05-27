@@ -1,0 +1,136 @@
+@import url(http://www.twobanjos.tierranet.com/styles/noNet.css);
+
+a {
+color: #003;
+text-decoration: none;
+}
+
+a:hover {
+color: #f90;
+text-decoration: underline;
+}
+
+a:visited {
+color: #666;
+}
+ 
+body {
+background: #369;
+border-left: 5px #f90 outset;
+height: 100%;
+margin: 0;
+}
+
+body,h1, h2, h3, p, dd, div, dt, span {
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+border: 0;
+vertical-align: top;
+}
+
+p {
+margin-top: .5em;
+margin-bottom: .5em;
+}
+/* classes */
+.center {
+text-align: center;
+}
+
+.caption a, .center a {
+text-decoration: underline;
+}
+.caption a:hover, .center a:hover {
+color: #900;
+}
+
+/* id's */
+#Bink a, #Mel a {
+text-decoration: underline;
+}
+
+#Back, #Mel {
+float: left;
+}
+
+#Caption {
+background:#fc3;
+/*dorky thing for ns4 */
+border: 1px solid #369; 
+margin-left: 125px;
+padding: 3px;
+width: 80%;
+}
+
+#Credits a {
+color: #fc6;
+}
+
+#Credits {
+float: right;
+margin-top: 15px;
+width: 350px;
+}
+
+#Credits p {
+color: #fff;
+margin-bottom: 15px;
+}
+
+#Header {
+padding: 5px 125px 15px  0;
+}
+
+#Links {
+background: #fff;
+font-weight: bold;
+height: 45px;
+margin-left: 125px;
+width: 80%;
+}
+
+#Links a {
+font-weight: normal;
+}
+
+#Links p {
+margin-left: 150px;
+}
+
+#Married {
+background: #369;
+border: dotted 1px #699;
+margin: 10px;
+}
+
+#MainNav {
+background: url(./images/bg_039fffdots.gif); 
+height: 45px;
+margin-top: 5px;
+width: 100%;
+}
+
+#Bink, #Next {
+float: right;
+}
+
+#Photo {
+margin-left: 125px;
+padding: 8px;
+}
+
+#TwoPix {
+padding: 0 3px;
+}
+
+#TwoPix img {
+margin: 0 3px;
+vertical-align: middle;
+}
+
+    
+
+

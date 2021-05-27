@@ -1,0 +1,26 @@
+<!--#include virtual="/includes/doctype.shtml" -->
+<html>
+<head>
+<title>
+<!--#include virtual="./includes/title.shtml" -->
+</title> 
+<!--#include virtual="/includes/metas.shtml" -->
+<!--#include virtual="/includes/stylomatic.shtml" -->
+<!--#include virtual="./includes/mouseover.shtml" -->
+<!--#include virtual="./includes/fillDiv.shtml" -->
+</head>
+<body onload="loaded=true;loadedPix=true">
+<div id="divHeader">
+<!--#include virtual="./includes/header.shtml" -->
+</div>
+<div id="divNav">
+<!--#include virtual="./includes/nav.shtml" -->
+</div>
+<div id="divContent">
+<!--#include virtual="./includes/content.shtml" -->
+</div>
+<div id="divCopyright">
+<!--#include virtual="./includes/copyright.shtml" -->
+</div>
+</body>
+</html>

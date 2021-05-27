@@ -1,0 +1,29 @@
+
+<!--#if expr="\"$DOCUMENT_URI\" = /index/" -->
+<img alt="That's all it takes" height="249" src="./images/pic_kiss.jpg" width="350" />
+<!--#elif expr="\"$DOCUMENT_URI\" = /print/" -->
+<img alt="How do we tell Mom?" height="191" src="./images/pic_grayscale.jpg" width="350" />
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /aftermath/" -->
+&nbsp;
+<!--#elif expr="\"$DOCUMENT_URI\" = /ceremony/" -->
+<div id="TwoPix">
+<img alt="How do we tell Mom?" height="191" src="./images/pic_courthouse1.jpg" width="350" />
+<img alt="Bride and Witnesses"height="231" src="./images/pic_courthouse2.jpg" width="300" />
+</div>
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /costume/" -->
+ <div id="TwoPix">
+ <img alt="Melanie as bride" height="250" src="./images/pic_mja1.jpg" width="310" />
+<img alt="Michael as groom" height="250" src="./images/pic_mrk1.jpg" width="251" />
+</div>
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /end/" -->
+<img alt="Cubby" height="284" src="./images/pic_cuttle.jpg" width="350" />
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /hotel/" -->
+<img alt="Going to dinner at Calistoga Inn" height="285" src="./images/pic_hotel.jpg" width="181" />
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /how/" -->
+<img alt="Personal Ad" height="250" src="./images/pic_ad.jpg" width="231" />
+<!--#endif -->

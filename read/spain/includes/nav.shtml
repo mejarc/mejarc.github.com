@@ -1,0 +1,84 @@
+
+
+<!--#if expr="\"$DOCUMENT_URI\" = /index/" -->
+
+<br />
+
+<!--#else -->
+
+	<!--#if expr="\"$DOCUMENT_URI\" = /afterword/" -->
+
+			<!--#set var="PreviousCity" value="madrid2.shtml" -->
+
+			<!--#set var="PreviousName" value="Madrid" -->
+
+			<!--#set var="ThisPage" value="Afterword" -->
+
+			<!--#set var="NextCity" value="/" -->
+
+			<!--#set var="NextName" value="Home" -->
+
+	<!--#elif expr="\"$DOCUMENT_URI\" = /madrid2/" -->
+
+			<!--#set var="PreviousCity" value="granada.shtml" -->
+
+			<!--#set var="PreviousName" value="Granada" -->
+
+			<!--#set var="ThisPage" value="Madrid Again" -->
+
+			<!--#set var="NextCity" value="afterword.shtml" -->
+
+			<!--#set var="NextName" value="The Epilogue" -->
+
+		<!--#elif expr="\"$DOCUMENT_URI\" = /madrid1/" -->
+
+			<!--#set var="PreviousCity" value="index.shtml" -->
+
+			<!--#set var="PreviousName" value="Home" -->
+
+			<!--#set var="NextCity" value="sevilla.shtml" -->
+
+			<!--#set var="NextName" value="Seville" -->
+
+			<!--#set var="ThisPage" value="Madrid" -->
+
+		<!--#elif expr="\"$DOCUMENT_URI\" = /granada/" -->
+
+			<!--#set var="PreviousCity" value="sevilla.shtml" -->
+
+			<!--#set var="PreviousName" value="Seville" -->
+
+			<!--#set var="NextCity" value="madrid2.shtml" -->
+
+			<!--#set var="NextName" value="Madrid Again" -->
+
+			<!--#set var="ThisPage" value="Granada" -->
+
+		<!--#elif expr="\"$DOCUMENT_URI\" = /sevilla/" -->
+
+			<!--#set var="PreviousCity" value="madrid1.shtml" -->
+
+			<!--#set var="PreviousName" value="Madrid" -->
+
+			<!--#set var="NextCity" value="granada.shtml" -->
+
+			<!--#set var="NextName" value="Granada" -->
+
+			<!--#set var="ThisPage" value="Seville" -->
+
+		<!--#endif -->
+
+	<a name="top"></a>
+
+	<div id="divNavLinks">
+
+	<p><!--#echo var="ThisPage" --><br />
+
+	<span id="Back"><a href="<!--#echo var="PreviousCity" -->">&#171;Back to <!--#echo var="PreviousName" --></a></span><span id="Forward"><a href="<!--#echo var="NextCity" -->">Visit <!--#echo var="NextName" -->&#187;</a></span></p>
+
+<!--#endif -->
+
+</div>
+
+
+

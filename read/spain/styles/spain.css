@@ -1,0 +1,147 @@
+@import url(spain2.css);
+/* html elements */
+a {
+color: #006;
+text-decoration: underline;
+}
+
+a:hover {
+color: #f30;
+}
+
+a:visited {
+color: #333;
+}
+
+body {
+background: #fc3;
+color: #000;
+margin: 0;
+}
+
+body, dd, div p, dt, li, p, td, td p, th {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: small;
+}
+
+img {
+border: 0;
+}
+
+/* ids and xml elements */
+#Back, .Michael {
+float: left;
+}
+
+#cap_1 {
+border-bottom: 1px solid #ccc;
+}
+#cap_2 {
+border-top: 1px solid #ccc;
+}
+
+#divContent, Content {
+color: #333;
+height: 80%;
+margin: 0;
+left: 0;
+padding: 0;
+width:100%;
+}
+
+#divCopyright, Copyright {
+color: #036;
+float: right;
+margin: 25px;
+}
+
+#divHeader, Header {
+padding: 10px 0 5px 5px;
+vertical-align: middle;
+}
+
+#divHeader p, Header * { 
+font-family: Courier, monospace;
+font-size: large;
+margin-left: 325px;
+}
+
+#divIcons, Icons {
+text-align: center;
+width: 100%;
+}
+
+#divMap, Map {
+border: 1px  dotted #ffc;
+float: left;
+height: 246px;
+margin: 25px 0 0 15px;
+padding: 5px;
+vertical-align: middle;
+width: 230px;
+}
+
+#divNav, Nav {
+height: 40px;
+margin: 0;
+width: 100%;
+}
+
+#divNavLinks, NavLinks {
+background: #000;
+color: #fff;
+font-weight: 700;
+height: 40px;
+margin: 0 0 10px 135px;
+padding: 3px;
+text-align: center;
+width: 80%;
+}
+
+#divNavLinks a, NavLinks a {
+color: #fff;
+font-weight: normal;
+text-decoration: none;
+}
+
+#divNavLinks p, NavLinks *{
+vertical-align: middle;
+}
+
+#divPic, Pic {
+border-bottom: 1px solid #333;
+border-left: 1px  dotted #ffc;
+border-right: 1px solid #333;
+border-top: 1px solid #333;
+height: auto;
+margin: 15px 0 0 256px;
+padding: 5px;
+text-align: center;
+width: 400px;
+}
+
+#divPic img {
+margin-top: 3px;
+}
+
+#divPic p {
+padding: 5px;
+text-align: left;
+}
+#Forward, .Melanie {
+float: right;
+}
+
+#MapCaption {
+text-align: right;
+}
+
+#paTop {
+text-align: center;
+width: 100%;
+}
+/* stunts */
+
+#divNav, Nav {
+background: url(http://www.twobanjos.tierranet.com/vacation/spain/images/redyell_small.gif) repeat-x #fc3;
+}

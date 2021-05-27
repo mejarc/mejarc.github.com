@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html>
+<head>
+<title>
+Hell Honeymoon 2001
+</title> 
+<!-- replace with include -->
+<meta name="description" content="" />
+<meta name="keywords" content="Melanie, Archer, resume, html, css, xhtml, stylesheet, cascading, javascript, dhtml, xml, metrius" />
+<meta name="lang" content="EN" />
+<!-- replace with include -->
+<link href="/styles/clean.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function fillDiv(e) {
+
+myVacation=new Array();
+myVacation[0]="./includes/granada1.htmlf";
+myVacation[1]="./includes/granada2.htmlf";
+myVacation[2]="./includes/granada3.htmlf";
+myVacation[3]="./includes/granada4.htmlf";
+
+	for (var i=0;i<myVacation.length;i++) 
+	
+		 if (document.getElementById) {
+		 document.getElementById('divContent').innerHTML.src=myVacation[e];
+		}
+	
+}
+</script>
+</head>
+<body>
+<div id="divHeader">
+<!-- replace with include -->
+<h1>Two Banjos At Once
+</h1>
+<p><i>A consumer magazine</i>
+</p>
+</div>
+<div id="divNav">
+<!-- replace with include -->
+<p><a href="#" onclick="fillDiv(0)"; return false;">Madrid One</a>
+</p>
+<p><a href="#" onclick="fillDiv(1)"; return false;">Madrid Two</a>
+</p>
+<p><a href="#" onclick="fillDiv(2)"; return false;">Madrid Three</a>
+</p>
+</div>
+<div id="divContent">
+<br />
+</div>
+<div id="divCopyright">
+<!-- replace with include -->
+<p>&copy; 2001 <a href="mailto:mejarc@slip.net">Melanie Archer</a>
+</p>
+</div>
+</body>
+</html>

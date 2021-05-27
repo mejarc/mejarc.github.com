@@ -1,0 +1,14 @@
+Married!
+<!--#if expr="\"$DOCUMENT_URI\" = /aftermath/" -->
+ :: Then what happened?
+ <!--#elif expr="\"$DOCUMENT_URI\" = /ceremony/" -->
+ :: Rites
+<!--#elif expr="\"$DOCUMENT_URI\" = /costume/" -->
+ :: What did you wear?
+<!--#elif expr="\"$DOCUMENT_URI\" = /end/" -->
+ :: Why, they have his eyes!
+ <!--#elif expr="\"$DOCUMENT_URI\" = /hotel/" -->
+ :: Where did you stay?
+<!--#elif expr="\"$DOCUMENT_URI\" = /how/" -->
+ :: How did you meet?
+<!--#endif -->

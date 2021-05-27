@@ -1,0 +1,141 @@
+<!--#if expr="\"$DOCUMENT_URI\" = /index/" -->
+<!--#set var="Heading" value="May 1st, 2001" -->
+<h3><!--#echo var="Heading" --></h3>
+<!--#elif expr="\"$DOCUMENT_URI\"= /print/" -->
+<dl>
+<dt>When?</dt>
+<dd>May 1st, 2001</dd>
+<dt>Where?</dt>
+<dd>Napa County Courthouse, Napa, California</dd>
+<dt>Then what?</dt>
+<dd><p>A leisurely afternoon drive took us to the Calistoga Inn for the night.</p><p>
+We will spend our honeymoon in Spain, late May, 2001.</p></dd>
+<dt>How long have you two been together already?</dt>
+<dd>It's been five years since Melanie answered Michael's personal ad in the <i>San Francisco Bay Guardian</i>.</dd>
+<dt>Where can we see more photos?</dt>
+<dd>On the Web:<br />http://www.twobanjos.tierranet.com/vacation/wedding/</dd>
+<dt>Who's changing names, and to what?</dt>
+<dd>We're keeping our surnames as before.</dd>
+</dl>
+<!--#else -->
+<!--#if expr="\"$DOCUMENT_URI\" = /aftermath/" -->
+<!--#set var="Heading" value="Then What Happened?" -->
+<!--#set var="MelCaption" value="<p>At six a.m. on May 3rd I was probably thinking of unusual things but certainly not of plastic cuttlefish arranged on 
+a dollhouse four-poster bed.
+</p><p>
+Yes, I was keen to join in the fun; what could be more jolly than to play along with your new spouse's 
+trilling <i>\"Mrs. Knowles! They're ready for their feeding!\"</i>  while mollusk simulacra swirl in your sleepy vision, 
+placed for your maternal regard on a bed six inches square.<br />----------</p>" -->
+<!--#set var="BinkCaption" value="<p>The next day saw us visiting more wineries and lunching at Tra Vigne. 
+<br />Very dreamy and comforting to be near Melanie all day.
+<br />Every fingertip touch seemed new and our shared glances somehow different.</p>
+<p>But Melanie didn't know that I had prepared a secret plan for the next morning back in Oakland...
+</p><p>I woke her by shaking her shoulder and (<i>adopting a nurse's voice</i>) telling her that her new children were ready for their first feeding. 
+</p><p>There next to her head was a doll's bed holding four small rubber toy cuttlefish! 
+</p><p>In spite of the morning blear Melanie was game for this kind of silliness and remarked about the surprisingly short gestation and the easy labor...
+</p>
+" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /ceremony/" -->
+<!--#set var="Heading" value="How did you do that?" -->
+<!--#set var="MelCaption" value="<p>
+We had a couple of hours to kill after getting our marriage license in downtown Napa, California.  Our officiants
+wouldn't be ready until after lunch time and there was the matter of the other people who wanted to be married
+at the very same time.
+</p><p>
+Well, then, how did we conduct our bachelor(ette) bacchanale?
+</p><p>
+Michael and I ate lunch at a local brew pub decorated with photos of the same place advertising five-cent pints
+about a hundred years ago.  Then we just walked; ended up at the Salvation Army store, where there were no 
+interesting records but plenty of hideous 1960's crochet manuals.
+</p><p>
+I abstained. The day's purpose was sacred.
+</p><p>
+By two p.m. I was repeating after Lynn, our officiant:
+</p><p>
+<i>\"...for richer or poorer...in sickness and in health...\"</i>
+</p><p>
+I didn't even giggle, me, saying this stuff straight from daytime soaps, right here in 
+front of full-bloom Don Juan roses under gentle sunshine, holding hands, me (\"<i>'Til death do us part</i>\")-- and Michael
+wasn't even laughing.
+</p><p>
+Well, mister, look at your new wife; she really means it.<br />----------</p>
+" -->
+<!--#set var="BinkCaption" value="<p>It was easy. The Napa County civil servants are very nice 
+and folksy and we were lucky to have the uninspiring government \"wedding chapel\" 
+unavailable due to another wedding. 
+</p><p>Yippee! We scheduled our vows for outside in the rose garden. What a great day!
+</p>" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /costume/" -->
+<!--#set var="Heading" value="What did you wear?" -->
+<!--#set var="MelCaption" value="<p>Melanie's hat was made in China of recycled
+U.S. currency.</p><p>She inherited the pearl necklace from her grandmother \"Moey\" and the lapis ring 
+from her friend Leslie Doyle.</p><p>Her dress is from <a href=\"http://www.twostardog.com/second.htm\">Two Star 
+Dog</a>, Berkeley, California.<br />----------</p>" -->
+<!--#set var="BinkCaption" value="<p>Khaki, cream and chocolate brown is the order of the day. 
+<br />I had no idea what I would wear until I saw Melanie prepping her hemp dress in the morning.
+</p><p>All of a sudden the choice seemed obvious.
+</p><p>I'm always amazed at how hot you must get the iron in order to have any effect on a hemp shirt.
+</p>" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /end/" -->
+<!--#set var="Heading" value="Why, they have his eyes!" -->
+<!--#set var="MelCaption" value="<p>
+They're all named Cubby.  Yeah, and they'll all be doctors, except for the one who will be a lawyer.  Meet the Drs. Cubby, and Cubby, Esq.
+</p><p>No other progeny are intended.  What a hard act to follow!<br />----------</p>" -->
+<!--#set var="BinkCaption" value="<p>Recently we suffered the sudden and unexplained disappearance of our plastic toy Gila monster named \"Sneaky.\"
+<br />I was hoping to offset the loss with the acquisition of these new squid kids.</p><p>
+Apparently, however, they have no voice talents.<br />
+But they do mime.</p><p>
+I think we'll have to send them to special schools. At least they can bring their own ink...</p>" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /hotel/" -->
+<!--#set var="Heading" value="Where did you stay?" -->
+<!--#set var="MelCaption" value="<p>What do you need from a hotel? Cable television, air conditioning, a pool, a telephone?
+</p><p>
+We needed none of those, so the <a href=\"http://www.napabeer.com/
+\">Calistoga Inn</a> was perfect.  We had a bed, a window we could open, a door we could lock.
+<br />Our night was relaxing and memorable and ended at eight the next morning when jackhammers tore into a sidewalk two hundred yards away.
+<br />----------</p>
+" -->
+<!--#set var="BinkCaption" value="<p>We began our married life by going wine tasting at Louis M. Martini 
+where we bought a case of our favorites.</p><p>
+The day was sunny and mild so we walked around Calistoga after checking in to our quaint accommodations.
+The hotel bartender kindly let our Muscat Amabile bottles stay cool in his walk-in.
+</p><p>I gave Melanie a gift of a set of art plates and bowls and a vase in the hotel room. 
+They are a light-hearted matte blue with glossy white marshmallow glaze patterns. 
+I think she liked them.
+</p><p>An inventive and well-crafted dinner at the hotel was followed by massages and a 
+last-call revisiting of Bosko's to see if their tiramisu was as amazing as on our first visit.
+We found it just as wonderful but this time we couldn't finish the incredibly sweet confection -- it didn't measure up to the glow of the evening...
+</p>" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /how/" -->
+<!--#set var="Heading" value="How did you meet?" -->
+<!--#set var="MelCaption" value="<p>In December, 1995, I went shopping for companionship in the personal ads of the San Francisco <a href=\"http://www.sfbg.com/connectlink.html\">
+<i>Bay Guardian</i></a>.
+</p><p>
+My criteria were specific:</p><p>
+\"I just want to meet someone who isn't dumb or boring!\" I wailed to one confidant. 
+I read the ads with red pencil in 
+hand, crossing out the ads from self-described \"professionals\" wanting \"slim model types.\" That still left me with numerous
+possibilities.  
+</p><p>
+\"Bicycle...\" caught my eye.  Hey, whatever may happen, maybe he'll share my rides to Marin.  The ad continued with
+appealing adjectives, and a request that I was unsure I could fulfill: \"timeless sensuality.\"   Well, mine seems 
+dependent
+upon cutting-edge coffee-brewing technology, the latest advances in meat substitutes, and the 
+wonders of antihistamines, but: I _do_ have a bike.<br />----------</p>
+" -->
+<!--#set var="BinkCaption" value="<p>I placed an ad and got only two responses but one sounded fairly interesting on the phone. 
+</p><p>Melanie and I planned to meet in San Francisco for coffee. We kept chatting madly the whole date and even moved our venue to a nearby cafe where it was more intimate.
+Then we walked around a busy park and sat on a bench long into the cold evening.</p><p>
+I remember the effect her light but compelling perfume had on me as we sat so close together. Electrifying!
+</p>" -->
+<!--#endif -->
+<h3><!--#echo var="Heading" --></h3>
+<p class="center"><a href="javascript:showCap(1);">Melanie's comments</a>&nbsp;|&nbsp;<a href="javascript:showCap(2);">Michael's comments</a></p>
+<div class="caption" id="cap_1"><!--#echo encoding="none" var="MelCaption" --></div>
+<div class="caption" id="cap_2"><!--#echo encoding="none" var="BinkCaption" --></div>
+<!--#endif -->

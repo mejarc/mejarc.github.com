@@ -1,0 +1,27 @@
+@import url(wedding.css);
+
+body, #Caption, #Header, #Married {
+background: #9f3;
+/*background: #fff;*/
+border: 0;
+}
+body,h1, h2, h3, p, dd, div, dt, span {
+color: #000;
+font-family: "Book Antiqua", Garamond, Palatino, serif;
+}
+dd {
+font-size: 12pt;
+}
+
+dt {
+font-size: 14pt;
+font-weight: 800;
+margin-top: .67em;
+}
+
+
+
+
+    
+
+

@@ -1,0 +1,1 @@
+<title><?php print("Buenos Aires, 2006: ".$whichPage); ?></title>

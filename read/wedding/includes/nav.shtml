@@ -1,0 +1,46 @@
+<div id="Links">
+<!--#if expr="\"$DOCUMENT_URI\" = /index/" -->
+<!--#set var="NextLink" value="how.shtml" -->
+<div><span id="Next"><a href="<!--#echo var="NextLink" -->">More&nbsp;&gt;&gt;</a></span>
+</div>
+</div>
+<!--#elif expr="\"$DOCUMENT_URI\" = /end/" -->
+<!--#set var="BackLink" value="aftermath.shtml" -->
+<!--#set var="NextLink" value="index.shtml" -->
+<!--#set var="ThisPage" value="The Future" -->
+<div><p><!--#echo var="ThisPage" --></p>
+<span id="Back"><a href="<!--#echo var="BackLink" -->">&lt;&lt;&nbsp;Back</a></span><span id="Next"><a href="<!--#echo var="NextLink" -->">Start Over&nbsp;&gt;&gt;</a></span>
+</div>
+</div>
+<!--#else -->
+<!--#if expr="\"$DOCUMENT_URI\" = /aftermath/" -->
+<!--#set var="BackLink" value="hotel.shtml" -->
+<!--#set var="NextLink" value="end.shtml" -->
+<!--#set var="ThisPage" value="The Aftermath" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /ceremony/" -->
+<!--#set var="BackLink" value="how.shtml" -->
+<!--#set var="NextLink" value="costume.shtml" -->
+<!--#set var="ThisPage" value="The Ceremony" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /costume/" -->
+<!--#set var="BackLink" value="ceremony.shtml" -->
+<!--#set var="NextLink" value="hotel.shtml" -->
+<!--#set var="ThisPage" value="The Costumes" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /hotel/" -->
+<!--#set var="BackLink" value="costume.shtml" -->
+<!--#set var="NextLink" value="aftermath.shtml" -->
+<!--#set var="ThisPage" value="The Wedding Night" -->
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /how/" -->
+<!--#set var="BackLink" value="index.shtml" -->
+<!--#set var="NextLink" value="ceremony.shtml" -->
+<!--#set var="ThisPage" value="The Blind Date" -->
+<!--#endif -->
+
+<div><p><!--#echo var="ThisPage" --></p>
+<span id="Back"><a href="<!--#echo var="BackLink" -->">&lt;&lt;&nbsp;Back</a></span><span id="Next"><a href="<!--#echo var="NextLink" -->">Next&nbsp;&gt;&gt;</a></span>
+</div>
+</div>
+<!--#endif -->

@@ -1,0 +1,21 @@
+/*nifty keyword discrepancy workaround devised by Todd Fahrner, Feb. 2001*/
+
+/*win ie 5 */
+body, dd, dt, li, p, td, th {
+	font-size: x-small;
+	}
+
+/*css2-supporting browsers */
+html>body  {
+	font-size: small;
+	} 
+	
+#MapCaption {
+font-size: xx-small;
+}
+
+/* Netscape 4x resize bug avoided on this one */
+#divHeader, Header {
+background: url(http://www.twobanjos.tierranet.com/vacation/spain/images/redyell_lg.gif) repeat-x #f30;
+}
+

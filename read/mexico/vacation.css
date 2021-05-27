@@ -1,0 +1,18 @@
+a		{color: #369;text-decoration: none;}
+a:hover	{text-decoration: underline;}
+a:visited	{color: #666;}
+body		{margin: 0;}
+body, h2, li, p, small, td	{ color: #000;font-family: Verdana, Helvetica, Arial, sans-serif;}
+h2 {padding: 15px;}
+/*classes*/
+.blk	{ background-color: #000;}
+.blk a	{color: #399;}
+.blk small	{color: fff;}
+.date	 { font-style: italic;text-align: right;}
+.footer { padding: 20px;text-align: center;}
+.grn	{ background-color: #390;}
+.photo{ padding: 10px;}
+.red	{ background-color: #900;}
+.red h2 {color: #fc0;}
+.wht	{ background-color: #fff;color: #000;}
+.words	{margin-bottom: 2%;margin-top: 12%;margin-right: 15%; padding-left: 25px;}

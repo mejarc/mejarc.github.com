@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/strict.dtd">
+<html>
+<head>
+<title><!--#include virtual="./includes/title.shtml" --></title>
+<!--#include virtual="./includes/metas.htmlf" -->
+<link href="./print.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="Married">
+<div id="Header">
+<!--#include virtual="./includes/header.shtml" -->
+</div>
+<div id="Photo">
+<!--#include virtual="./includes/photo.shtml" -->
+</div>
+<div id="Caption">
+<!--#include virtual="./includes/caption.shtml" -->
+</div>
+</div>
+</body>
+</html>
+

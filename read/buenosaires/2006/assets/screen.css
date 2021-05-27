@@ -1,0 +1,237 @@
+html,body {
+margin:0;
+padding:0;
+}
+
+a { color: #2E344E; }
+a:hover { color: #405366;}
+
+body{
+background: url(bg-body.png) center top repeat-y #614D2D;
+font: 75% Georgia, Times, "Palatino Linotype", serif;
+color: #2E341E;
+letter-spacing: .1em;
+text-align: center;
+min-width: 750px;
+}
+
+
+dd p { margin: .25em 0 0 1em;}
+dd em { font-weight: 700; }
+
+h1, h2, h3, p { margin: 0 0 10px 0; }
+
+ul { margin: 0 0 10px 0; padding-left: 0; }
+li {margin: 0 0 10px 15px; }
+
+/* ID'd elements */
+
+#container { 
+margin: 0 auto;
+text-align: left;
+width: 750px; 
+/* treat IE */
+overflow: hidden;
+padding: 0;
+position: relative;
+top: 0;
+}
+
+#container-inner {  
+margin: 0 25px;
+width: 700px;
+/* treat IE */
+overflow: hidden;
+position: static;
+}
+
+#content {
+margin: 0 0 0 150px;
+padding: 0 25px;
+}
+
+#content dt { font-weight: 700; margin: 10px 0 5px 0; }
+#content dd { margin: 0 0 10px 0; }
+
+#header { 
+background: url(bg-header.png) repeat-x left bottom transparent;
+margin-bottom: 15px;
+padding-bottom: 10px; 
+}
+
+#header h1 { background: url(bg-h1.png) no-repeat; 
+text-indent: -1000em;
+height:80px;
+line-height:80px;
+margin:0;
+}
+
+ #wrapper { 
+background: url(bg-wrapper.png);
+width: 100%;
+}
+#wrapper:after,
+.pic:after {
+/* contain floats */
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* floated elements */
+#navigation,
+#wrapper { float: left; }
+ 
+#navigation { width: 150px; }
+
+#navigation-inner { margin: 0 15px 0 2px;}
+
+#navigation{ margin-left:-700px; }
+#navigation a { text-decoration: none;  font-weight: 700; }
+#navigation dd,
+#navigation dt { 
+background: url(bg-nav.png) no-repeat bottom left;
+margin: 0;
+padding: 0 0 15px 0;
+}
+
+#navigation dt { 
+font-variant: small-caps;
+margin: 5px 0 0 2px;
+}
+
+#navigation dt,
+#navigation dt a { 
+color: #2E341E;
+}
+
+#navigation li { 
+font-size: 90%;
+letter-spacing: 0;
+list-style: none;
+margin: 10px 0 0 2px;
+}
+
+
+#footer{
+clear:left;
+margin: 25px;
+width:100%;
+}
+/* classes */
+
+.alert { 
+background: url(bg-alert-bottom.png) no-repeat left bottom;
+ letter-spacing: 0;
+margin: 3em 0;
+width: 348px;
+}
+
+.alert-inner { 
+background: url(bg-alert-top.png) no-repeat;
+}
+
+.alert-inner p {
+color: #000;
+line-height: 1.5em; 
+padding: 25px 40px;
+}
+
+.clear { clear: both; }
+.date { 
+font-size: 90%; 
+text-align: right; 
+margin-bottom: 15px; 
+}
+
+html>body .external { 
+background: url(bg-external.png) no-repeat 100% 0; padding-right: 15px;
+}
+
+
+.gallery { margin: 10px 0; }
+.gallery:after {
+content: ".";
+clear: both;
+display: block;
+visibility: hidden;
+}
+
+.gallery div { 
+float: left; 
+margin-right: 15px; 
+text-align: center;
+width: 120px;
+}
+
+.gallery div img { outline: double 4px #eee;}
+
+.pic {
+display: block;
+font-size: 90%; 
+letter-spacing: 0;
+}
+
+.pic p { float: left;  clear: left; }
+* html .pic p { float: none; }
+
+h2.tips, h2.tags { 
+background-repeat: no-repeat;
+height: 25px;
+margin: 0 0 10px 0;
+text-indent: -1000em;
+}
+
+h2.tips { 
+background-image: url(bg-tips.png);
+clear: both;
+ }
+
+h2.tags { 
+background-image: url(bg-tags.png);/* 
+display: inline;*/
+}
+
+ul.tags {
+display: inline;
+list-style: none;
+}
+
+.tags li { 
+display: inline;
+padding: 0;
+margin: 0;
+}
+
+.tags li:after { content: ", "; display: inline;}
+.tags li:last-child:after { content: ""; }
+
+/* Win IE */
+* html .tags li { padding-right: 5px; }
+
+.top { margin-top: 10px; }
+
+/* "onion-skin" drop shadows, inspired by http://www.alistapart.com/articles/onionskin/ */
+
+.wrap1, .wrap2, .wrap3 { display: block; }
+
+.wrap1 { 
+background:url(bg-shadow.png) no-repeat right bottom;
+float: left;
+}
+
+* html .wrap1 { display: inline; }
+.wrap2 { background:url(bg-shadow-bl.png) no-repeat  left bottom;
+}
+.wrap3 { 
+background:url(bg-shadow-tr.png) no-repeat right top;
+padding:0 17px 17px 0;
+}
+
+.wrap3 img { display:block; }
+
+/* correct for Win IE bug */
+* html .wrap1 { display: inline; }

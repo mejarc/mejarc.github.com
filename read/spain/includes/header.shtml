@@ -1,0 +1,22 @@
+<img  alt="Honeymoon Hell 2001" height="38" src="./images/header_hell.gif" width="604" />
+
+
+<!--#if expr="\"$DOCUMENT_URI\" = /madrid/ " -->
+
+
+<p>moping in madrid</p>
+
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /sevilla/ " -->
+
+
+<p>sullen in seville</p>
+
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /granada/ " -->
+
+
+<p>grumpy in granada</p>
+
+
+<!--#endif -->

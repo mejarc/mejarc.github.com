@@ -1,0 +1,141 @@
+ <!--#if expr="\"$DOCUMENT_URI\" != /index/ && \"$DOCUMENT_URI\" != /afterword/" -->
+<div id="divIcons">
+	<p><a href="#Michael" onmouseover="over(0)" onmouseout="out(0)"><img alt="Michael" border="0" height="35" id="men" name="men" src="./images/icon_men.gif" width="35" /></a>&nbsp;<a href="#Michael" onmouseover="over(0);" onmouseout="out(0);">Michael's Comments</a>&nbsp;&nbsp;<a href="#Melanie" onmouseover="over(1)" onmouseout="out(1)"><img alt="Melanie" border="0" height="35" id="women" name="women" src="./images/icon_women.gif" width="35" /></a>&nbsp;<a href="#Melanie" onmouseover="over(1);" onmouseout="out(1);">Melanie's Comments</a></p>
+	
+	<script type="text/javascript">
+	//<![CDATA [
+	if (document.getElementById) { 
+	document.write("<p>More Photos:<br\ />");
+	}
+	//]]>
+	</script>
+	
+		<!--#if expr="\"$DOCUMENT_URI\" = /granada/ " -->
+		<script type="text/javascript">
+	//<![CDATA [
+	if (document.getElementById) { 
+	document.write("<a href=\"#\" onclick=\"fillDivPhoto(0); fillPMi(0); fillPMe(0); return false;\">1</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(1); fillPMi(1); fillPMe(1); return false;\">2</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(2); fillPMi(2); fillPMe(2); return false;\">3</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(3); fillPMi(3); fillPMe(3); return false;\">4</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(4); fillPMi(4); fillPMe(4); return false;\">5</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(5); fillPMi(5); fillPMe(5); return false;\">6</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(6); fillPMi(6); fillPMe(6); return false;\">7</a>");
+		
+}
+	//]]>
+	</script>
+		<!--#elif expr="\"$DOCUMENT_URI\" = /madrid1/ " -->
+		<script type="text/javascript">
+	//<![CDATA [
+	if (document.getElementById) { 
+	document.write("<a href=\"#\" onclick=\"fillDivPhoto(0); fillPMi(0); fillPMe(0); return false;\">1</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(1); fillPMi(1); fillPMe(1); return false;\">2</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(2); fillPMi(2); fillPMe(2); return false;\">3</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(3); fillPMi(3); fillPMe(3); return false;\">4</a>");	
+}
+	//]]>
+	</script>
+	<!--#elif expr="\"$DOCUMENT_URI\" = /madrid2/ " --><script type="text/javascript">
+	//<![CDATA [
+	if (document.getElementById) { 
+	document.write("<a href=\"#\" onclick=\"fillDivPhoto(0); fillPMi(0); fillPMe(0); return false;\">1</a>");	
+}
+	//]]>
+	</script>
+		<!--#elif expr="\"$DOCUMENT_URI\" = /sevilla/ " -->
+		<script type="text/javascript">
+	//<![CDATA [
+	if (document.getElementById) { 
+	document.write("<a href=\"#\" onclick=\"fillDivPhoto(0); fillPMi(0); fillPMe(0); return false;\">1</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(1); fillPMi(1); fillPMe(1); return false;\">2</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(2); fillPMi(2); fillPMe(2); return false;\">3</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(3); fillPMi(3); fillPMe(3); return false;\">4</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(4); fillPMi(4); fillPMe(4); return false;\">5</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(5); fillPMi(5); fillPMe(5); return false;\">6</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(6); fillPMi(6); fillPMe(6); return false;\">7</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(7); fillPMi(7); fillPMe(7); return false;\">8</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(8); fillPMi(8); fillPMe(8); return false;\">9</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(9); fillPMi(9); fillPMe(9); return false;\">10</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(10); fillPMi(10); fillPMe(10); return false;\">11</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(11); fillPMi(11); fillPMe(11); return false;\">12</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(12); fillPMi(12); fillPMe(12); return false;\">13</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(13); fillPMi(13); fillPMe(13); return false;\">14</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(14); fillPMi(14); fillPMe(14); return false;\">15</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(15); fillPMi(15); fillPMe(15); return false;\">16</a>&nbsp;&nbsp;<a href=\"#\" onclick=\"fillDivPhoto(16); fillPMi(16); fillPMe(16); return false;\">17</a>");	
+}
+	//]]>
+	</script>
+<!--#endif -->
+	</p>
+
+</div>
+<!--#endif -->
+<div id="divMap">
+<!--#if expr="\"$DOCUMENT_URI\" = /granada/" -->
+<img alt="Spain" height="236" src="./images/map_granada.gif" width="220" />
+<!--#elif expr="\"$DOCUMENT_URI\" = /madrid/" -->
+<img alt="Spain" height="236" src="./images/map_madrid.gif" width="220" />
+<!--#elif expr="\"$DOCUMENT_URI\" = /sevilla/" -->
+<img alt="Spain" height="236" src="./images/map_sevilla.gif" width="220" />
+<!--#else -->
+<img alt="Spain" height="236" src="./images/map_spain.gif" width="220" />
+<p id="MapCaption">Map courtesy of the <a href="http://www.cia.gov/cia/publications/factbook/geos/sp.html">CIA</a></p>
+<!--#endif -->
+</div>
+<div id="divPic">
+	
+	<!-- default pic -->
+	<!--#if expr="\"$DOCUMENT_URI\" = /granada/" -->
+		<div id="Photo"><img alt="Granada" height="275" id="MainPhoto" src="./images/pic_067.jpg" width="350"  />
+		</div>
+		<a name="Michael"></a><img alt="Michael" height="35"  src="./images/icon_men.gif" width="35" />
+<p  id="MiCaption">Trinidad Plaza, Granada. Our first moments in this wonderful city of carefree, tattooed and pierced youth juggling poorly and carrying on in general. We ended up calling them 'Hijos de Geronimo' (Jerry's Kids.)</p>
+	<a name="Melanie"></a><img alt="Melanie" height="35"  src="./images/icon_women.gif" width="35" />
+<p id="MeCaption">I think this was my favorite plaza that we visited.  We're avoiding the Cathedral where Gypsy women shove rosemary in tourists' faces and require 100 pesetas for the "gift."</p>
+	<!--#elif expr="\"$DOCUMENT_URI\" = /madrid1/" -->
+		<div id="Photo"><img alt="Madrid1" height="275"  id="MainPhoto" src="./images/pic_005.jpg" width="350"  /></div>
+		<a name="Michael"></a><img alt="Michael" height="35"  src="./images/icon_men.gif" width="35" />
+<p  id="MiCaption">Stunned look: I just lost my passport!</p>
+	</p>
+<a name="Melanie"></a><img alt="Melanie" height="35"  src="./images/icon_women.gif" width="35" />
+<p id="MeCaption">...and my keys, and my credit card, and my lipstick, and one of my favorite fountain pens. And the vegetarian restaurant we're looking for here in Plaza de la Paja is closed.<br /><br />As we were shopping for Spanish-flavored travel wear at El Corte Ingl&eacute;s, I left my purse in the dressing room.  Even the snug Spandex-enhanced capri pants I obtained weren't compensation enough for the sudden removal of yet more of my personal property.<br /><br />Mind you, this is *after* United Airlines checked our luggage to Savannah, Georgia (said so right on the claim check), then pretended they didn't know where it had gone.  By the way, if you're Katherine M. Archbold, I think I know where your suitcase went in late May, 2001.</p>
+<!--#elif expr="\"$DOCUMENT_URI\" = /madrid2/" -->
+		<div id="Photo"><img alt="Madrid2" height="275" id="MainPhoto" src="./images/pic_091.jpg" width="350"  /></div>
+		<a name="Michael"></a><img alt="Michael" height="35" name="men" src="./images/icon_men.gif" width="35" />
+<p  id="MiCaption">Back in Madrid, we couldn't help but notice that there is some bit of Egyptiana plopped down in a park. We kept on walking…</p>
+<a name="Melanie"></a><img alt="Melanie" height="35"  name="women" src="./images/icon_women.gif" width="35" />
+<p id="MeCaption">"<i>Toreador, Toreador...</i>"  I seem to be performing in <i>Carmen</i> and <i>A&iuml;da</i> at the same time.</p>
+		
+	<!--#elif expr="\"$DOCUMENT_URI\" = /sevilla/" -->
+		<div id="Photo">
+		<img alt="Sevilla" height="275" id="MainPhoto" src="./images/pic_019.jpg" width="350" />
+		</div>
+		<a name="Michael"></a><img alt="Michael" height="35" name="men" src="./images/icon_men.gif" width="35" />
+<p  id="MiCaption">Why is it that all the buildings I've seen like this in California are cheap and peeling? Refreshing to see the originals for once…</p>
+<a name="Melanie"></a><img alt="Melanie" height="35" name="women" src="./images/icon_women.gif" width="35" />
+<p id="MeCaption">The Teatro Lope de Vega isn't such an old building: it's contemporary with  those "Moorish" movie palaces built in the US in the 1920's.  I found it amusing that even in Seville, with its medieval parish churches flourishing genuine Moorish minarets, "Moorish" architecture holds appeal.</p>
+<!--#elif expr="\"$DOCUMENT_URI\" = /index/" -->
+<p>It's supposed to be a dreamy expanse of time, weeks or days or months spent in near-constant embrace, gazing across late-morning breakfast tables in moods approaching total adoration.  It's supposed to be vivacious afternoons in exotic locales, unrestrained dancing in quaint plazas, hearty surprise at the sun's sudden reappearance at dawn, unfading wafts of rose attar.  It's the honeymoon we didn't get.</p>
+<p>We just didn't.  Now you know.</p>
+<p>Can two newlyweds encounter together airline incompetence, "vegetarian" sandwiches with ham in them, murderous heat, polyester clothing, the limitations of modest photographic talent, and still stay married?</p>
+<p>Let's <a href="./madrid1.shtml">see!</a></p>
+<!--#elif expr="\"$DOCUMENT_URI\" = /afterword/" -->
+<p>Michael hardly ever remembers his dreams.  One night in Seville, however, he managed to recall one: </p>
+<p><i>Michael and I print, photocopy and post several fliers pleading for help finding our lost beloved: "DISAPPEARED!!" is our anxious headline.  Placed below it are images and descriptions of various items from our luggage.  He awakens before we get response.</i></p>
+<p>
+After two weeks' testing the customer service skills of about fifteen United Airlines employees, we learn that our luggage is willing to return from its frolic in Savannah, Georgia. </p>
+<p>I am at home in California when it arrives, two bags bursting with sunhats, Madrid street maps, watercolor paints and dance shoes. I delay unpacking the suitcases, somehow believing that we're really, truly going on our honeymoon in Spain, and that our recent errand in Iberia was just a scouting expedition.  And it was.  I've got the carryon bag prepared.
+</p>
+<p>
+-30-
+</p>
+<dl>
+<dt>
+<img alt="Info" border="0" height="35" src="./images/icon_info.gif" width="35" />
+<p>More information:</p>
+</dt>
+<dd>
+<p>Turespa&ntilde;a<br />
+<a href="http://www.tourspain.es/turespai/marcoi.htm">http://www.tourspain.es/turespai/marcoi.htm</a>
+</p>
+<p>Line One Spanish Dictionary and Phrase Finder<br />
+<a href="http://www.lineone.net/discovery/dictionary/spanish/">http://www.lineone.net/discovery/dictionary/spanish/</a>
+</p>
+<p>RENFE Train Schedules and Fares<br />
+<a href="http://www.renfe.es/ingles/hir/index.html">http://www.renfe.es/ingles/hir/index.html</a>
+</p>
+<p>
+Ellingham, Mark, et al. <i>Spain: The Rough Guide</i>.  Rough Guides Ltd: London. 1999.
+</p>
+<p>
+Jacobs, Michael.  <i>Andaluc&iacute;a</i>.  Pallas Athene: London. 1999.
+</p>
+<p>
+Noteboom, Cees.   <i>Roads to Santiago: A Modern-Day Pilgrimage Through Spain</i>.  Harvest: San Diego. 1997.
+</p>
+<p>
+V&aacute;zquez, Ana. <i>Pocket Menu Reader: Spain</i>.  Langenscheidt: New York. 2000.
+</p>
+</dd>
+</dl>
+		<!--#endif -->
+
+</div>
+	<p id="paTop"><a href="#top">^Top</a></p>

@@ -1,0 +1,18 @@
+
+<!--#if expr="\"$DOCUMENT_URI\" = /madrid1/" -->
+
+<script src="./includes/m.js" type="text/javascript"></script>
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /madrid2/" -->
+
+<script src="./includes/m2.js" type="text/javascript"></script>
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /granada/" -->
+
+<script src="./includes/gr.js" type="text/javascript"></script>
+
+<!--#elif expr="\"$DOCUMENT_URI\" = /sevilla/" -->
+
+<script src="./includes/s.js" type="text/javascript"></script>
+
+<!--#endif -->

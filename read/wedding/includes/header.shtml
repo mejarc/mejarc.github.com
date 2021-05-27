@@ -1,0 +1,17 @@
+<!--#if expr="\"$DOCUMENT_URI\" = /print/"-->
+<img
+alt="Melanie Archer and Michael Knowles" 
+src="./images/header_mbw.gif" height="55" width="380" />
+<br />
+<img alt="have"  src="./images/header_havebw.gif"
+height="127" width="335" />
+<!--#else -->
+<img
+alt="Melanie Archer and Michael Knowles" 
+src="./images/header_m.gif" height="55" width="380" />
+<!--#if expr="\"$DOCUMENT_URI\" = /index/"-->
+<br />
+ <img alt="have"  src="./images/header_have.gif"
+height="100" width="264" />
+<!--#endif -->
+<!--#endif -->

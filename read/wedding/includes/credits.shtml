@@ -1,0 +1,13 @@
+<p>&copy; 2001 <a href="mailto:m@twobanjos.com">Michael
+
+Knowles and Melanie Archer</a></p>
+
+<!--#if expr="\"$DOCUMENT_URI\" = /index/" -->
+
+<p>Yet another fine <a
+
+href="http://www.twobanjos.com/">
+
+Two Banjos At Once</a> subdirectory.</p>
+
+<!--#endif -->

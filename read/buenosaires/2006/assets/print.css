@@ -1,0 +1,20 @@
+body { 
+background: #fff; 
+border: 0; 
+color: #000;  
+font-family:  "Palatino Linotype",Palatino, "Times New Roman",serif;
+font-size: 12pt; 
+letter-spacing: normal; 
+margin: 10mm;
+}
+a, a:visited { color: #000; font-weight: 700; text-decoration: none; }
+#content a:link:after, #content a:visited:after,
+#footer a:link:after, #footer a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}
+img, img a { border: 0; } 
+.more, .skip, .top, #navigation, #callout  { display: none; }
+
+@media print {  html>body {margin: 10mm; }}
+@page { size: portrait; }
