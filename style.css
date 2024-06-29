@@ -27,6 +27,10 @@ body {
   padding: 0;
 }
 
+dt {
+  font-weight: bold;
+  margin-top: 1.65rem;
+}
 h1,
 h2,
 h3 {
@@ -106,8 +110,8 @@ main {
 
 footer {
   bottom: 1rem;
+  left: 2rem;
   position: fixed;
-  text-align: center;
   width: 100%;
 }
 
